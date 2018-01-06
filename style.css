@@ -1,0 +1,55 @@
+body {
+	background-image: url("concert.jpg");
+	background-color: black;
+	background-size: contain;
+	background-repeat: no-repeat;
+/*	opacity: .5;*/
+	min-height: 900px;
+	/*max-width: 100%;*/
+}
+
+#container {
+	background: rgba(0, 0, 0, 0.5);
+	min-height: 900px;
+}
+
+h1, a {
+	color: white;
+}
+
+h1 {
+	text-transform: uppercase;
+}
+
+hr {
+	width: 15%;
+	color: #d03e09;
+}
+
+h4 {
+	color: #aba5a5;
+	font-family: times;
+}
+
+#main, h1, h4 {
+	text-align: center;
+}
+
+#main {
+	margin-top: 150px;
+}
+
+.card {
+	margin: 0;
+}
+
+/*.btn-outline-primary {
+    color: #d03e09;
+    border-color: #d03e09;
+}
+
+primary:active, .show>.btn-outline-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #d03e09;
+    border-color: #d03e09;
+}*/
