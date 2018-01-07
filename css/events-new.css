@@ -4,14 +4,13 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-shop-homepage/blob/master/LICENSE)
  */
 
+@import url('https://fonts.googleapis.com/css?family=Dosis|Poppins|Quicksand');
+
+body {
+	font-family: 'Quicksand', sans-serif;
+}
+
 .filterDiv {
-    float: left;
-/*    background-color: #2196F3;
-    color: #ffffff;
-    width: 100px;
-    line-height: 100px;
-    text-align: center;
-    margin: 2px;*/
     display: none; /* Hidden by default */
 }
 
@@ -20,12 +19,22 @@
     display: block;
 }
 
-
-
-
-
 .btn-secondary {
 	border: 1px solid white;
+	border-radius: 17px;
+}
+
+.btn-info {
+	border-radius: 22px;
+	padding: 0px;
+}
+
+a {
+	color: #1188b8;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,1);
 }
 
 body {
